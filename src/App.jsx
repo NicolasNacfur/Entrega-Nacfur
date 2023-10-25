@@ -15,6 +15,7 @@ import NotFound from "./Pages/NotFound";
 import Producto from "./Pages/producto/[id].jsx";
 import Featured from "./Pages/feature/[id].jsx";
 
+
 const App = () => {
   return (
       <Router>
@@ -31,5 +32,6 @@ const App = () => {
       </Router>
   );
 };
+
 
 export default App;
